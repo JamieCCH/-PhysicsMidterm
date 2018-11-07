@@ -1,20 +1,28 @@
-# ForceShoot
-Physics Engine Lab 1 &amp; 2
+Midterm Assignment
+Puzzle Based Platformer
 
-This lab will count as 10% as it is two labs being combines into one.
+The goal of the midterm is to take the concepts learned this far and apply them to make a game loop come to life.  A game loop has a player that is given an objective and once that is completed is rewarded.  In this case, the game will be physics driven.
 
-Objective:
+You control a physics driven character, camera can be 1st or 3rd person.
 
-This is a two player game.  The game consists of up to 5 rounds.  Each round gives the players three turns.  Each turn the player is giving an opportunity to slide their object towards the destination.  You have to calculate the correct force to be applied to get the object to the destination.  Using whatever game design you like to allow the player to aim and guess at the correct force, you will gauge if the player over/under shoots or gets it spot on.  At the end of the round the player closest to the destination gets a point.  Each turn is worth only one point. First player to three wins the game.
+By physics driven, i mean the character's motion is controlled via forces or velocity.  The character needs to navigate a 3d plane, jumping is not necessary.
 
-Friction, and weight of the objects can be whatever you like.
+There will be 4 objects in the game world, each with a goal destination that the player must push the object onto.  The player can push an object by making contact with said object and moving in the direction, or pressing space which brings up a power gauge.  If the player stops the gauge at the right part, the object will slide perfectly into the destination.  
 
-Make it clear what the score is, and who the winner is when the game is over.
+EDIT: Each of the objects has a different weight! Demonstrate the ability to find the mass of the object, and use that to overcome dynamic friction and move said object.
 
-Marking
+Once the 3 objects are placed in their destination, the 4th object is unlocked.  It is positioned at the bottom a ramp, and needs to be pushed to the top of the ramp.
 
-Acceleration calculation - 4%
+Once that is complete the assignment is done.  The player should be notified they completed the objective, and the final score will be given by the the time it took to complete the level.
 
-Time to rest based on velocity - 3%
+Physics Based Player (20%)
 
-Gameplay(turn management, turn mechanics, win screen) - 3%
+Pushing objects (15%) 
+
+Pushing Objects by pressing space and bringing up the gauge (35%)
+
+Detecting object reached destination and disabling player interaction with it (10%)
+
+Final Objective with ramp (10%)
+
+User feedback, UI and UX (10%)
